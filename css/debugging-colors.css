@@ -1,0 +1,51 @@
+.master-container {
+    background-color: bisque;
+}
+
+.header-bar {
+    background-color: yellowgreen;
+}
+
+.logo {
+    background-color: blue;
+}
+
+.logo-icon {
+    background-color: beige;
+}
+
+.logo-text {
+    background-color: aqua;
+}
+
+.nav-container {
+    background-color: goldenrod;
+}
+
+.geborenam-page {
+    background-color: purple;
+}
+
+.wikipedia-page {
+    background-color: brown;
+}
+
+.spotify-page {
+    background-color: palevioletred;
+}
+
+.main-container {
+    background-color: aquamarine;
+}
+
+.main-text {
+    background-color: green;
+}
+
+.aside {
+    background-color: red;
+}
+
+.footer-container {
+    background-color: azure;
+}

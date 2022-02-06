@@ -1,0 +1,19 @@
+page to copy:
+https://geboren.am/person/john-lennon
+
+structure:
+https://developer.mozilla.org/de/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure
+
+icons and fonts:
+https://fontawesome.com
+https://fonts.google.com
+https://www.pngwing.com/en/free-png-ktvqd/download?width=100
+
+flexbox guide:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+hover animations css:
+https://ianlunn.github.io/Hover/
+
+box sizing css:
+https://developer.mozilla.org/de/docs/Web/CSS/box-sizing
