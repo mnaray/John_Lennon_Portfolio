@@ -23,8 +23,12 @@
     filter: grayscale(100%);
 }
 
+.introduction-image {
+    filter: sepia(75%);
+}
+
+.introduction-text,
 .main-text,
 .aside {
     text-align: justify;
-    text-align-last: justify;
 }
