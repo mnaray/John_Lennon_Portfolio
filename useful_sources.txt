@@ -7,9 +7,14 @@ https://developer.mozilla.org/de/docs/Learn/HTML/Introduction_to_HTML/Document_a
 icons and fonts:
 https://fontawesome.com
 https://fonts.google.com
+https://www.remove.bg/de/upload
 
 Royalty free only, still copyrighted:
 https://www.pngwing.com/en/free-png-ktvqd/download?width=100
+
+copyright free:
+pixabay
+pexels
 
 flexbox guide:
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
