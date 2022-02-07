@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    height: auto;
+    box-sizing: border-box;
+    padding: 1%;
 }
 
 .header-bar {
@@ -21,6 +24,8 @@
 }
 
 .logo-icon {
+    max-width: 100px;
+    max-height: 100px;
     width: auto;
     height: auto;
 }
@@ -36,6 +41,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    height: auto;
     width: 40%;
     margin-right: 5%;
     align-items: center;
@@ -57,6 +63,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    height: auto;
 }
 
 .main-text {
