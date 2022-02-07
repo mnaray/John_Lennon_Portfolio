@@ -11,6 +11,10 @@
 .link-buttons {
     font-weight: bold;
     letter-spacing: 0.2rem;
+    color: rgb(214, 214, 214);
+    background-color: rgb(71, 71, 71);
+    border: 0.2rem solid grey;
+    border-radius: 1rem 0.1rem 1rem 0.1rem;
 }
 
 .main-text,
