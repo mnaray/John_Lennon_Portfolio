@@ -40,6 +40,14 @@
     margin-right: 5%;
 }
 
+.link-buttons {
+    margin-right: 1%;
+}
+
+.geborenam-page {
+    margin-left: 1%;
+}
+
 .main-container {
     display: flex;
     flex-direction: row;
