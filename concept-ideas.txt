@@ -1,0 +1,12 @@
+In this file i will write down all the ideas I get for this project
+
+Buttons:
+When hovering over a button, it should fill with a fitting (to linked url) color from left to right.
+The animation I thought of is called Bounce To Right or Sweep To Right.
+
+Logo:
+When hovering over the logo, the letters should turn a bit
+Sadly i didn't find an animation for this
+
+When hovering over the logo, it should get underlined
+The animation I though of is called Underline From Center
