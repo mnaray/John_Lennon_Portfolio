@@ -38,10 +38,14 @@
     justify-content: space-evenly;
     width: 40%;
     margin-right: 5%;
+    align-items: center;
 }
 
 .link-buttons {
     margin-right: 1%;
+    line-height: 400%;
+    height: auto;
+    text-align: center;
 }
 
 .geborenam-page {
