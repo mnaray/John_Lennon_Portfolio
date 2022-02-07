@@ -23,6 +23,12 @@
     filter: grayscale(100%);
 }
 
+.introduction-container {
+    background-color: grey;
+    border: 0.2rem solid rgb(71, 71, 71);
+    border-radius: 1.2rem 0.3rem 1.2rem 0.3rem;
+}
+
 .introduction-image {
     filter: sepia(75%);
 }
