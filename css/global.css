@@ -6,6 +6,12 @@
     height: 100%;
 
     /* global font settings */
+    line-height: 130%;
     text-decoration: none;
     font-family: Consolas, monaco, monospace;
+    font-weight: 300;
+}
+
+a {
+    color: black;
 }

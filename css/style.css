@@ -1,0 +1,20 @@
+.master-container {
+    background-color: rgb(184, 184, 184);
+}
+
+.logo-text {
+    font-size: 150%;
+    font-weight: bolder;
+    letter-spacing: 50px;
+}
+
+.link-buttons {
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.main-text,
+.aside {
+    text-align: justify;
+    text-align-last: justify;
+}
