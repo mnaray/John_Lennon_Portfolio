@@ -31,10 +31,22 @@
 
 .introduction-image {
     filter: sepia(75%);
+    border-radius: 0.4rem;
 }
 
 .introduction-text,
 .main-text,
 .aside {
     text-align: justify;
+}
+
+.footer-container {
+    background-color: rgb(71, 71, 71);
+    color: rgb(214, 214, 214);
+}
+
+.source-links {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
 }
