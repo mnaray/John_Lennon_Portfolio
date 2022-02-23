@@ -30,3 +30,11 @@ https://www.loremipsum.de/
 
 github url:
 https://github.com/mnaray/John_Lennon_Portfolio
+
+
+how to use css root var:
+https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+
+color information:
+https://getbootstrap.com/docs/5.1/customize/color/
+https://material.io/design/color/color-usage.html#brand
