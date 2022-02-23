@@ -1,5 +1,5 @@
 .master-container {
-    background-color: rgb(184, 184, 184);
+    background-color: var(--main-bg-color);
 }
 
 .logo-text {
