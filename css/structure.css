@@ -102,9 +102,91 @@
 }
 
 .main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     margin: 0.3125rem;
     width: 55%;
     height: auto;
+}
+
+.steckbrief-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.subject-container,
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+.subjects,
+.information {
+    margin-bottom: 1.5rem;
+}
+
+.zitat {
+    width: auto;
+    height: auto;
+    padding: 7.5rem;
+}
+
+.zitat-container {
+    width: auto;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.zeit-container,
+.trivia-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: auto;
+    margin-bottom: 5rem;
+}
+
+.zeit-titel,
+.trivia-titel {
+    height: auto;
+    margin-bottom: 0.75rem;
+}
+
+.zeit-text,
+.trivia-text {
+    height: auto;
+}
+
+.lebenslauf-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+    height: auto;
+    margin-bottom: 5rem;
+}
+
+.event-container,
+.year-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+.year,
+.event {
+    margin-bottom: 1.5rem;
+}
+
+.autogramm-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; /* Still needs to be adjusted */
 }
 
 .aside {
