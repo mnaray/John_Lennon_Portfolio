@@ -60,12 +60,13 @@
 }
 
 .spotify-icon,
-.wikipedia-icon {
+.wikipedia-icon,
+.music-note {
     max-width: 2rem;
     max-height: 2rem;
     width: auto;
     height: auto;
-    margin: 0.5rem;
+    margin: 1.15rem;
 }
 
 .geborenam-page {
