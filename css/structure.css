@@ -189,6 +189,28 @@
     justify-content: space-evenly; /* Still needs to be adjusted */
 }
 
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: auto;
+}
+
+.faq-titel {
+    margin-bottom: 0.75rem;
+}
+
+.question-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.question {
+    font-weight: bold;
+}
+
 .aside {
     margin: 0.3125rem;
     margin-left: 0;
