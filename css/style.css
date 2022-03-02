@@ -11,8 +11,8 @@
 .link-buttons {
     font-weight: bold;
     letter-spacing: 0.2rem;
-    color: --text-color-bright;
-    background-color: --background-color;
+    color: var(--text-color-bright);
+    background-color: var(--bg-color);
     border: 0.2rem solid grey;
     border-radius: 1rem 0.1rem 1rem 0.1rem;
     overflow: hidden;
@@ -47,11 +47,11 @@
 
 .footer-container {
     background-color: var(--bg-color);
-    color: --text-color-bright;
+    color: var(--footer-text-color);
 }
 
 .source-links {
     font-style: italic;
     font-weight: bold;
-    color: --footer-text-color;
+    color: var(--footer-text-color);
 }
