@@ -133,6 +133,7 @@
     width: auto;
     height: auto;
     padding: 7.5rem;
+    line-height: 2rem;
 }
 
 .zitat-container {
@@ -150,14 +151,12 @@
     margin-bottom: 5rem;
 }
 
-.zeit-titel,
-.trivia-titel {
+.zeit-titel {
     height: auto;
     margin-bottom: 0.75rem;
 }
 
-.zeit-text,
-.trivia-text {
+.zeit-text {
     height: auto;
 }
 
@@ -189,6 +188,21 @@
     justify-content: space-evenly; /* Still needs to be adjusted */
 }
 
+.trivia-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.trivia-text {
+    height: auto;
+    max-width: 25rem;
+    margin-top: 0.75rem;
+    line-height: 1.75rem;
+}
+
 .faq-container {
     display: flex;
     flex-direction: column;
@@ -209,6 +223,10 @@
 
 .question {
     font-weight: bold;
+}
+
+.answer {
+    max-width: 35rem;
 }
 
 .aside {
