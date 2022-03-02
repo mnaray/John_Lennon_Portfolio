@@ -185,7 +185,18 @@
 .autogramm-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly; /* Still needs to be adjusted */
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.autogramm-text {
+    margin-bottom: 1.25rem;
+}
+
+.autogramm-image {
+    height: auto;
+    max-width: 40rem;
 }
 
 .trivia-container {
