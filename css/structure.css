@@ -243,10 +243,56 @@
 }
 
 .aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     margin: 0.3125rem;
     margin-left: 0;
     width: 30%;
     height: auto;
+}
+
+.geburtsort-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10rem;
+    height: auto;
+}
+
+.ueberschrift {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+    height: auto;
+}
+
+.ortsname,
+.weblinks-titel {
+    padding: 1.25rem;
+    line-height: 2.5rem;
+    text-align: center;
+    height: auto;
+}
+
+.weblinks-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: auto;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+}
+
+.weblink {
+    margin-bottom: 2.5rem;
 }
 
 .footer-container {
