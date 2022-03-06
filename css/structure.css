@@ -112,10 +112,12 @@
     height: auto;
 }
 
-.steckbrief-container {
+.steckbrief-container,
+.lebenslauf-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding-top: 1.5rem;
 }
 
 .subject-container,

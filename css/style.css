@@ -40,6 +40,13 @@
     text-align: justify;
 }
 
+.steckbrief-container,
+.lebenslauf-container {
+    border-top: 00.2rem solid lightgray;
+    border-bottom: 00.2rem solid lightgray;
+    border-radius: 1.2rem 0rem 1.2rem 0rem;
+}
+
 .zitat {
     background-color: lightgrey;
     border: 0.2rem solid var(--bg-color);
