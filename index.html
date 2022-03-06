@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="/css/style.css" />
         <link rel="stylesheet" href="/css/animations.css" />
         <link rel="stylesheet" href="/css/structure.css" />
+        <link rel="stylesheet" href="/css/media-queries.css" />
         <!-- <link rel="stylesheet" href="css/debugging-colors.css" /> -->
         <link rel="stylesheet" href="/css/global.css" />
     </head>
@@ -21,10 +22,10 @@
                 >
                     <img
                         src="/resources/images/icon_face.png"
-                        alt="icon"
+                        alt=""
                         class="logo-icon"
                     />
-                    <div class="logo-text">JOHN LENNON</div>
+                    <div class="logo-text">JOHN</br>LENNON</div>
                 </a>
                 <nav class="nav-container">
                     <a
@@ -34,9 +35,9 @@
                     >
                         <object
                             data="/resources/svg/music_note_black_24dp.svg"
-                            class="music-note"
+                            class="music-note icons"
                         ></object>
-                        geboren.am
+                        <div class="button-text">geboren.am</div>
                     </a>
                     <a
                         href="https://de.wikipedia.org/wiki/John_Lennon"
@@ -46,9 +47,9 @@
                         <img
                             src="/resources/images/icon_wikipedia.png"
                             alt=""
-                            class="wikipedia-icon"
+                            class="wikipedia-icon icons"
                         />
-                        WIKIPEDIA
+                        <div class="button-text">WIKIPEDIA</div>
                     </a>
                     <a
                         href="https://open.spotify.com/artist/4x1nvY2FN8jxqAFA0DA02H?si=zb2AbnLZQJic8lL-mjbF1g"
@@ -58,9 +59,9 @@
                         <img
                             src="/resources/images/icon_spotify.png"
                             alt=""
-                            class="spotify-icon"
+                            class="spotify-icon icons"
                         />
-                        SPOTIFY
+                        <div class="button-text">SPOTIFY</div>
                     </a>
                 </nav>
             </header>
@@ -85,26 +86,34 @@
             <main class="main-container">
                 <div class="main-text">
                     <div class="steckbrief-container">
-                        <div class="subject-container">
+                        <div class="line">
                             <p class="subjects">Geburtsdatum</p>
-                            <p class="subjects">Geburstort</p>
-                            <p class="subjects">Todestdatum</p>
-                            <p class="subjects">Sterbeort</p>
-                            <p class="subjects">Grabstätte</p>
-                            <p class="subjects">Sternzeichen</p>
-                        </div>
-                        <div class="info-container">
                             <p class="information">Mittwoch, 9. Oktober 1940</p>
+                        </div>
+                        <div class="line">
+                            <p class="subjects">Geburstort</p>
                             <p class="information">Liverpool, England</p>
+                        </div>
+                        <div class="line">
+                            <p class="subjects">Todestdatum</p>
                             <p class="information">
                                 Montag, 8. Dezember (Tötungsdelikt)
                             </p>
+                        </div>
+                        <div class="line">
+                            <p class="subjects">Sterbeort</p>
                             <p class="information">
                                 New York City, New Yor, USA
                             </p>
+                        </div>
+                        <div class="line">
+                            <p class="subjects">Grabstätte</p>
                             <p class="information">
                                 Friedhof Ferncliff, Hartsdale, New York, USA
                             </p>
+                        </div>
+                        <div class="line">
+                            <p class="subjects">Sternzeichen</p>
                             <p class="information">Waage</p>
                         </div>
                     </div>
@@ -136,21 +145,25 @@
                         </p>
                     </div>
                     <div class="lebenslauf-container">
-                        <div class="year-container">
+                        <div class="line">
                             <p class="year">1940</p>
-                            <p class="year">1969</p>
-                            <p class="year">1980</p>
-                            <p class="year">2030</p>
-                        </div>
-                        <div class="event-container">
                             <p class="event">
-                                Geburt am 9. Oktober in Liverpool in England
+                            Geburt am 9. Oktober in Liverpool in England
                             </p>
+                        </div>
+                        <div class="line">
+                            <p class="year">1969</p>
                             <p class="event">Heirat mit Yoko Ono</p>
+                        </div>
+                        <div class="line">
+                            <p class="year">1980</p>
                             <p class="event">
                                 Tod mit 40 Jahren am 8. Dezember in New York
                                 City
                             </p>
+                        </div>
+                        <div class="line">
+                            <p class="year">2030</p>
                             <p class="event">50. Todestag am 8. Dezember</p>
                         </div>
                     </div>
@@ -301,7 +314,7 @@
             </main>
             <footer class="footer-container">
                 <div class="content-sources">
-                    <p class="geborenam-source">
+                    <p class="geborenam-source footer-contents">
                         Quelle für den Inhalt von
                         <a
                             href="https://geboren.am/person/john-lennon"
@@ -311,7 +324,7 @@
                             geboren.am
                         </a>
                     </p>
-                    <p class="image-sources">
+                    <p class="image-sources footer-contents">
                         Alle Illustrationen sind uncopyrighted und somit auf
                         <a
                             href="https://pixabay.com/de/"

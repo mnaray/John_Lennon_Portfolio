@@ -1,0 +1,111 @@
+@media screen and (max-width: 1600px) {
+    .icons {
+        display: none;
+    }
+
+    .link-buttons {
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    .main-text {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .aside {
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    .geburtsort-container,
+    .weblinks-container {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .logo-text {
+        display: none;
+    }
+
+    .logo {
+        width: auto;
+    }
+
+    .nav-container,
+    .link-buttons {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .introduction-container {
+        height: fit-content;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .introduction-image {
+        float: none;
+        margin-right: 100%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .aside {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-right: 0;
+        width: auto;
+    }
+
+    .geburtsort-container,
+    .weblinks-container {
+        box-sizing: padding-box;
+        margin-bottom: 3rem;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .introduction-image {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .icons {
+        display: block;
+    }
+
+    .button-text {
+        display: none;
+    }
+
+    .link-buttons {
+        width: 4rem;
+        margin-top: 1.5rem;
+    }
+
+    .header-bar {
+        flex-direction: column;
+    }
+
+    .logo-text {
+        display: block;
+        letter-spacing: 1.5rem;
+    }
+
+    .zitat {
+        padding: 3.75rem;
+    }
+}
