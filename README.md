@@ -1,5 +1,6 @@
 # John Lennon Portfolio
-This project is an HTML and CSS portfolio about John Lennon  
+This project is an HTML and CSS portfolio about John Lennon.  
+It was made for a school Project.  
 ### Source for the Text
 https://geboren.am/person/john-lennon  
   
