@@ -69,7 +69,7 @@
 
     .geburtsort-container,
     .weblinks-container {
-        box-sizing: padding-box;
+        box-sizing: border-box;
         margin-bottom: 3rem;
         width: auto;
     }
